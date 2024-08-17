@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("netflix/img/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.seperation {
+    height: 11px;
+    background-color: gray;
+}
+
+.hero-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main input {
+    padding: 18px 16px;
+    padding-right: 166px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(254, 254, 254, 0.7);
+    border-radius: 4px;
+    color: white;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(129, 5, 5);
+}
+
+.btn-red-sm {
+    height: 32px;
+    width: 75px;
+    font-weight: bold;
+}
+
+.btn-red {
+    width: 215px;
+    height: 56px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.first {
+    color: white;
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 0px;
+}
+
+.img1 {
+    position: relative;
+}
+
+.img1 img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.img1 video {
+    position: absolute;
+    top: 51px;
+    right: 0px;
+    width: 555px;
+}
+
+
+.bold {
+    font-size: 48px;
+    font-weight: bolder;
+
+}
+
+.light {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 16px;
+
+}
+
+
+.faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    padding: 72px;
+}
+
+.head {
+    color: white;
+    text-align: center;
+
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+
+.faqbox {
+    display: flex;
+    justify-content: space-between;
+    max-width: 40vw;
+    padding: 20px;
+    color: white;
+    background-color: rgb(66, 66, 66);
+    margin: auto;
+    cursor: pointer;
+} 
+
+.faqboxes .faqbox {
+    transition: all 0.2s ease-out;
+}
+
+.faqbox:hover {
+    background-color: rgb(154, 154, 154);
+}
+
+.email-address input {
+    padding: 18px 16px;
+    padding-right: 166px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(254, 254, 254, 0.7);
+    border-radius: 4px;
+    color: white;
+}
+
+.email-address {
+    gap: 50px;
+}
+
+.email-address p {
+
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin-top: 80px;
+    padding-bottom: 20px;
+
+}
+
+.call {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+}
+
+.call a {
+    color: white;
+}
+
+footer {
+    color: white;
+    max-width: 40vw;
+    margin: auto;
+    padding: 72px 0;
+
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 100px;
+}
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.grids {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}

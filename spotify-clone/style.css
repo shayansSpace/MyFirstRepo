@@ -1,0 +1,267 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* scroll bar */
+
+
+body {
+    background-color: black;
+}
+
+.change-my-colour {
+    filter: invert(1);
+
+}
+
+.border {
+
+    border-radius: 10px;
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.left {
+    margin: 4px;
+    height: 100vh;
+    width: 25vw;
+
+}
+
+.left-up {
+    background-color: #121212;
+
+    border-radius: 10px;
+}
+
+.left-up ul li {
+    list-style: none;
+    width: 20px;
+    color: white;
+    display: flex;
+    gap: 26px;
+}
+
+.left-up ul {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.left-down {
+    background-color: #121212;
+    border-radius: 10px;
+    margin-top: 4px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+
+.right {
+    margin: 4px;
+    height: 100vh;
+    width: 75vw;
+    overflow: auto;
+    background-color: #121212;
+}
+
+/* library */
+
+.head ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head ul li {
+    width: 20px;
+    color: white;
+    list-style: none;
+}
+
+
+.head ul #library {
+    display: flex;
+}
+
+.overflow {
+    background-color: #121212;
+    ;
+    height: 100px;
+    overflow: auto;
+}
+
+.overflow1 {
+    background-color: #1f1f1f;
+    color: white;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.overflow1 button {
+    height: 32px;
+    width: 125px;
+    border-radius: 12px;
+    background-color: white;
+    font-weight: 700;
+}
+
+#overflow-para1 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#overflow-para2 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.lang button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 32px;
+    width: 100px;
+    border-radius: 12px;
+    border: 2px solid white;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+}
+
+.lang button img {
+    width: 14px;
+}
+
+.lang button p {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+
+.singerCardContainer {
+    margin-top: 50px;
+}
+
+.singerCardContainer h1 {
+    color: white;
+
+}
+
+
+.cardContainer {
+    color: white;
+    display: flex;
+    gap: 22px;
+    padding-top: 30px;
+
+}
+
+.card {
+    cursor: pointer;
+    transition: 0.1s;
+    padding: 1px;
+}
+
+.card:hover {
+    background-color: rgba(31, 31, 31, 1);
+    border-radius: 10px;
+}
+
+.card span img {
+    object-fit: cover;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.card h2,
+.album h2 {
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.card p,
+.album p {
+    color: rgb(82, 81, 81);
+}
+
+.greenPlayBtn {
+    background-color: #1DB954;
+    /* Spotify Green */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    position: relative;
+    bottom: 55px;
+    right: -48px;
+    opacity: 0;
+    transition: all 0.5s ease-out;
+}
+
+.greenPlayBtn svg {
+    fill: black;
+    width: 24px;
+    height: 24px;
+}
+
+.greenPlayBtn:hover {
+    opacity: 1;
+    bottom: 92px;
+}
+
+/* right-album */
+.albumContainer {
+    color: white;
+    display: flex;
+    gap: 0px;
+ 
+    padding-top: 30px;
+     
+}
+
+.album {
+    width: 230px;
+    padding: 30px;
+    text-overflow: ellipsis;
+    padding: 30px;
+    cursor: pointer;
+    transition: 0.1s;
+    overflow: auto ;
+    
+}
+
+.album:hover {
+    background-color: rgba(31, 31, 31, 1);
+    border-radius: 10px;
+}
+
+.album>* {
+    padding: 5px;
+}
+
+.album img {
+    width: 100%;
+    object-fit: cover;
+}

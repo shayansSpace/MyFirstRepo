@@ -1,0 +1,56 @@
+/* for phone screens */
+@media only screen and (max-width: 640px) {
+    .hero-button {
+        flex-direction: column;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 38px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 20px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 16px;
+    }
+
+    .first {
+        flex-direction: column;
+    }
+
+    .img1 img {
+        width: 375px;
+    }
+
+    .img1 video {
+        position: absolute;
+        top: 54px;
+        right: 0px;
+        width: 375px;
+    }
+
+    .bold,
+    .light,
+    .email-address {
+        text-align: center;
+    }
+
+    .faqbox {
+        max-width: 90vw;
+    }
+
+    .btn-red {
+        width: 207px;
+        height: 45px;
+    }
+
+    .footer {
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+}
+
+/* medium screens */
+@media only screen and (min-width: 641px) and (max-width: 768px) {}
